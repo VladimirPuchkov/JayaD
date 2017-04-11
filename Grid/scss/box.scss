@@ -1,0 +1,19 @@
+.box {
+	height: 50px;
+
+	text-align: center;
+	font-size: 16px;
+
+	border: 1px solid $black;
+	background-color: $grey;
+
+	box-sizing: border-box;
+}
+
+.hide {
+	display: none;
+
+	@media all and (max-width: nth( nth($breakpoints, 2), 2)) {
+		display: block;
+	}
+}

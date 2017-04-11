@@ -1,0 +1,12 @@
+$container-max-width: 1170px;
+$container-min-width: 320px;
+$columns: 12;
+
+$breakpoints: (
+	(sm, 640px),
+  (md, 960px),
+  (lg, 1170px)
+ );
+
+$grey: #eeeeee;
+$black: #000000;

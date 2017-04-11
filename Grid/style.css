@@ -1,0 +1,134 @@
+@media only screen and (min-width: 640px) {
+  .col-sm-1 {
+    flex-basis: 8.33333%; }
+
+  .col-sm-2 {
+    flex-basis: 16.66667%; }
+
+  .col-sm-3 {
+    flex-basis: 25%; }
+
+  .col-sm-4 {
+    flex-basis: 33.33333%; }
+
+  .col-sm-5 {
+    flex-basis: 41.66667%; }
+
+  .col-sm-6 {
+    flex-basis: 50%; }
+
+  .col-sm-7 {
+    flex-basis: 58.33333%; }
+
+  .col-sm-8 {
+    flex-basis: 66.66667%; }
+
+  .col-sm-9 {
+    flex-basis: 75%; }
+
+  .col-sm-10 {
+    flex-basis: 83.33333%; }
+
+  .col-sm-11 {
+    flex-basis: 91.66667%; }
+
+  .col-sm-12 {
+    flex-basis: 100%; } }
+@media only screen and (min-width: 960px) {
+  .col-md-1 {
+    flex-basis: 8.33333%; }
+
+  .col-md-2 {
+    flex-basis: 16.66667%; }
+
+  .col-md-3 {
+    flex-basis: 25%; }
+
+  .col-md-4 {
+    flex-basis: 33.33333%; }
+
+  .col-md-5 {
+    flex-basis: 41.66667%; }
+
+  .col-md-6 {
+    flex-basis: 50%; }
+
+  .col-md-7 {
+    flex-basis: 58.33333%; }
+
+  .col-md-8 {
+    flex-basis: 66.66667%; }
+
+  .col-md-9 {
+    flex-basis: 75%; }
+
+  .col-md-10 {
+    flex-basis: 83.33333%; }
+
+  .col-md-11 {
+    flex-basis: 91.66667%; }
+
+  .col-md-12 {
+    flex-basis: 100%; } }
+@media only screen and (min-width: 1170px) {
+  .col-lg-1 {
+    flex-basis: 8.33333%; }
+
+  .col-lg-2 {
+    flex-basis: 16.66667%; }
+
+  .col-lg-3 {
+    flex-basis: 25%; }
+
+  .col-lg-4 {
+    flex-basis: 33.33333%; }
+
+  .col-lg-5 {
+    flex-basis: 41.66667%; }
+
+  .col-lg-6 {
+    flex-basis: 50%; }
+
+  .col-lg-7 {
+    flex-basis: 58.33333%; }
+
+  .col-lg-8 {
+    flex-basis: 66.66667%; }
+
+  .col-lg-9 {
+    flex-basis: 75%; }
+
+  .col-lg-10 {
+    flex-basis: 83.33333%; }
+
+  .col-lg-11 {
+    flex-basis: 91.66667%; }
+
+  .col-lg-12 {
+    flex-basis: 100%; } }
+.container {
+  max-width: 1170px;
+  min-width: 320px;
+  padding: 0 15px;
+  margin: 0 auto; }
+  .container .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -15px 10px; }
+
+.box {
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #000000;
+  background-color: #eeeeee;
+  box-sizing: border-box; }
+
+.hide {
+  display: none; }
+  @media all and (max-width: 960px) {
+    .hide {
+      display: block; } }
+
+/*# sourceMappingURL=style.css.map */
